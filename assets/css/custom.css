@@ -12,6 +12,10 @@ body {
   background-color: #00332F !important;
 }
 
+.accordion-button:not(.collapsed) {
+  color:#fff !important;
+  background-color: #00332F !important;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -260,4 +264,15 @@ body {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+/* Personalizar
+-------------------------------------------------- */
+
+.custom-accordion .card-header {
+  background-color: #00332f; /* Azul */
+  color: #fff; /* Cor do texto */
+}
+.custom-accordion .card-body {
+  background-color: #e9ecef; /* Cor de fundo do corpo */
 }
