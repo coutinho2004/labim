@@ -268,6 +268,13 @@ body {
 
 /* Personalizar
 -------------------------------------------------- */
+.btn-leia-mais{
+  --bs-btn-border-color: #6c757d;
+  --bs-btn-bg: #2F615E;
+  --bs-btn-active-border-color: #51585e;
+  --bs-btn-hover-bg: #00332F;
+}
+
 
 .btn-labim {
   --bs-btn-color: #fff;
